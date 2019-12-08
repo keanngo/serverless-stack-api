@@ -19,6 +19,7 @@ Resources:
             MaxAge: 3000
 
 # Print out the name of the bucket that is created
+#S3 buckets are globally named
 Outputs:
   AttachmentsBucketName:
     Value:
